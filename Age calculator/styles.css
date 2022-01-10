@@ -62,3 +62,16 @@ text-align: center;
     color:#557C55;
     background-color: azure;
 }
+
+.rights, .right{
+
+    margin: auto;
+    color:azure;
+    background-color:transparent;
+
+}
+
+.rights{
+    position: absolute;
+    bottom: 10%;
+}
