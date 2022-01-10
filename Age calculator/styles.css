@@ -6,7 +6,7 @@ body{
 }
 
 .result{
-    color:aliceblue;
+    color:#557C55;
     
 }
 
@@ -17,6 +17,7 @@ body{
     width: 60%;
     padding: auto ;
     border: 10px solid #557C55;
+    height: 80%;
 
 }
 
@@ -26,13 +27,18 @@ width:40%;
 margin: auto;
 padding: auto;
 border-radius: 15%;
+display: block;
 }
 
 button{
     margin:5PX;
     border-radius: 20%;
+
 }
 
+button:hover{
+    color:#557C55;
+}
 
 
 h1, h2{
@@ -46,9 +52,13 @@ text-align: center;
 
 .wall{
     margin: auto;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     text-align: center;
-    padding-top:20%;
+    padding-top:10%;
 }
 
+#results{
+    color:#557C55;
+    background-color: azure;
+}

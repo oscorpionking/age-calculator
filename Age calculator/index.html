@@ -13,18 +13,17 @@
 
 <div class="container">
     <h2>Age Calculator</h2>
-    <form>
+    <form onsubmit="return false">
 <label for="currentdate">What day is it?</label>
 <input type="date" id="currentdate" name="currentdate"> <br>
 <label for="birthyear">Input Year of Birth</label>
-  <input type="number" name="birthyear" id="birthyear">
+  <input type="number" name="birthyear" id="birthyear" required>
   <button id="getage">Get My Age</button>
 </div>
 </form>
-  <div class="result" id="result">
-    <h2><span>id="results"</span>yes</h2>
+  <div  class="result" id="result">
 <h2>Your Age</h2>
-<p><span id="results"></span></p>
+<button styles="width:100px; height:60px:"><span id="results"></span></button>
   </div>
   </div>
 
