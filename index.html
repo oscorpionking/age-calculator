@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="wall">
+
+<div class="container">
+    <h2>Age Calculator</h2>
+    <form onsubmit="return false">
+<label for="currentdate">What day is it?</label>
+<input type="date" id="currentdate" name="currentdate"> <br>
+<label for="birthyear">Input Year of Birth</label>
+  <input type="number" name="birthyear" id="birthyear" required>
+  <button id="getage">Get My Age</button>
+</div>
+</form>
+  <div  class="result" id="result">
+<h2>Your Age</h2>
+<button><span id="results"></span></button>
+  </div>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>

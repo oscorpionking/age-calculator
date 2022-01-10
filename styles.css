@@ -1,0 +1,65 @@
+body{
+  margin: auto;  
+  background-image: url("https://cdn.pixabay.com/photo/2017/12/18/18/37/christmas-3026685__340.jpg");
+  background-repeat:repeat;
+
+}
+
+.result{
+    color:#557C55;
+    
+}
+
+.container , .result{
+    margin: auto;
+    text-align: center;
+    background-color:aliceblue;
+    width: 60%;
+    padding: auto ;
+    border: 10px solid #557C55;
+    height: 80%;
+
+}
+
+input{
+color: navy;
+width:40%;
+margin: auto;
+padding: auto;
+border-radius: 15%;
+display: block;
+}
+
+button{
+    margin:5PX;
+    border-radius: 20%;
+    height:40%;
+
+}
+
+button:hover{
+    color:#557C55;
+}
+
+
+h1, h2{
+color:black;
+padding: 10px;
+margin: 5px;
+border: 5px solid transparent;
+background-color: transparent;
+text-align: center;
+}
+
+.wall{
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    padding-top:10%;
+}
+
+#results{
+    color:#557C55;
+    background-color: azure;
+}
