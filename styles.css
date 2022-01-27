@@ -34,7 +34,6 @@ text-align: center;
 button{
     margin:5PX;
     border-radius: 20%;
-    height:40%;
 
 }
 
@@ -52,6 +51,7 @@ background-color: transparent;
 text-align: center;
 }
 
+
 .wall{
     margin: auto;
     width: 90%;
@@ -63,4 +63,17 @@ text-align: center;
 #results{
     color:#557C55;
     background-color: azure;
+}
+
+.rights, .right{
+
+    margin: auto;
+    color:azure;
+    background-color:transparent;
+
+}
+
+.rights{
+    position: absolute;
+    bottom: 10%;
 }
